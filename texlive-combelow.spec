@@ -1,3 +1,9 @@
+# revision 18462
+# category Package
+# catalog-ctan /macros/latex/contrib/combelow
+# catalog-date 2010-05-24 13:39:10 +0200
+# catalog-license lppl1.3
+# catalog-version 0.99f
 Name:		texlive-combelow
 Version:	0.99f
 Release:	1
@@ -41,6 +47,7 @@ The command is robust, but interferes with hyphenation.
 %doc %{_texmfdistdir}/doc/latex/combelow/combelow.bib
 %doc %{_texmfdistdir}/doc/latex/combelow/combelow.pdf
 %doc %{_texmfdistdir}/doc/latex/combelow/combelow.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ The command is robust, but interferes with hyphenation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
