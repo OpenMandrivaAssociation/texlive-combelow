@@ -6,7 +6,7 @@
 # catalog-version 0.99f
 Name:		texlive-combelow
 Version:	0.99f
-Release:	10
+Release:	11
 Summary:	Typeset "comma-below" letters, as in Romanian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/combelow
