@@ -1,6 +1,6 @@
 Name:		texlive-combelow
 Version:	18462
-Release:	1
+Release:	2
 Summary:	Typeset "comma-below" letters, as in Romanian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/combelow
