@@ -3,7 +3,7 @@ Version:	18462
 Release:	2
 Summary:	Typeset "comma-below" letters, as in Romanian
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/combelow
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/combelow
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/combelow.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/combelow.doc.r%{version}.tar.xz
